@@ -1,0 +1,6 @@
+<h4>Shows Showing/Available</h4>
+{% for show in shows}
+<button onclick="selectShow( '{{ show[0] }}' )">
+  {{ show[1] }} {{ show[2] }} {{ show[3] }} {{ show[4] }}
+</button>
+{% endfor %}
